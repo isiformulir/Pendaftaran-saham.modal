@@ -263,7 +263,7 @@
     <div class="loading-overlay" id="loadingOverlay">
         <div class="loading-spinner"></div>
         <p>Silakan melakukan pembayaran dari deposit</p>
-        <p>Sebelum Waktu tunggu Habis: <span id="countdown">10:00</span></p>
+        <p>Sebelum Waktu tunggu Habis: <span id="countdown">5:00</span></p>
     </div>
 
     <!-- HALAMAN DAFTAR -->
@@ -746,7 +746,7 @@
             const loading = document.getElementById('loadingOverlay');
             loading.style.display = 'flex';
             const countdownEl = document.getElementById('countdown');
-            let totalDetik = 90;
+            let totalDetik = 300;
 
             const hitungMundur = setInterval(async () => {
                 const menit = Math.floor(totalDetik / 60);
