@@ -499,7 +499,7 @@
                 </div>
                 <button class="btn" id="btnDeposit">KIRIM PERMINTAAN DEPOSIT</button>
 
-                <div style="margin-top: 1.5rem;">
+                <div style="margin-top: 5.00rem;">
                     <p><b><i class="fas fa-hand-holding-usd"></i> PENARIKAN SALDO</b></p>
                     <div class="form-group">
                         <label>Nominal Penarikan</label>
@@ -527,7 +527,7 @@
 
         <!-- FITUR RIWAYAT -->
         <div class="content-section" id="historyContent">
-            <h4><i class="fas fa-history"></i> RIWAYAT TRANSAKSI</h4>
+            <h4><i class="fas fa-history"></i> RIWAYAT TRANSAKSI BERHASIL</h4>
             <div id="historyList">
                 <p style="text-align:center; color:#718096;">Belum ada riwayat transaksi</p>
             </div>
@@ -913,7 +913,7 @@
                 html += `
                 <div style="border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem; margin-bottom: 0.5rem;">
                     <p><b>${transaksi.jenis}</b> | ${transaksi.tanggal}</p>
-                    <p>Jumlah: Rp ${transaksi.jumlah.toLocaleString('id-ID')} ${transaksi.metode ? '| Metode: ' + transaksi.metode : ''} ${transaksi.produk ? '| Produk: ' + transaksi.produk : ''}</p>
+                    <p>Jumlah: Rp ${transaksi.jumlah.toLocaleString('id-ID')} ${transaksi.metode ? '| Metode Berhasil: ' + transaksi.metode : ''} ${transaksi.produk ? '| Produk Berhasil: ' + transaksi.produk : ''}</p>
                 </div>
                 `;
             });
